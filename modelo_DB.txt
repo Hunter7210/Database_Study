@@ -1,0 +1,24 @@
+Database: 
+	Escola
+Tabelas:
+		Alunos	
+Colunas:
+			id INT AUTO_INCREMENT
+			nome VARCHAR(255)
+			data_nasci DATETIME
+			cpf VARCHAR(14)
+			telefone VARCHAR(14)
+			email VARCHAR(100)
+			endereco VARCHAR(255)
+			responsavel VARCHAR(100)
+			
+		Cursos
+			id_cursosINT AUTO_INCREMENT
+			nome_curso VARCHAR(255)
+			duracao INT
+			vagas_disponi INT
+			periodo VARCHAR(50)
+			modalidade VARCHAR(50)
+			observacao VARCHAR(255)
+			valor MONEY
+			
